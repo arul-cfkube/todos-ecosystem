@@ -8,43 +8,43 @@ Each one of these Microservices can be developed, deployed and tested individual
 
 App | Description
 ------------ | -------------
-todos-ui | todomvc.com Vue.js frontend Todo(s) UI
+[todos-ui](https://github.com/corbtastik/todos-ui) | todomvc.com Vue.js frontend Todo(s) UI
 
 #### JVM Microservices
 
 Microservice | Description
 ------------ | -------------
-todos-gateway | Todo(s) API gateway featuring Zuul
-todos-api | Todo(s) REST API in Spring Boot 2.0
-todos-restclient | Todo(s) HTTP Client, used to call Todo(s) API(s)
-todos-command | Todo(s) CQRS impl, command pattern, Spring Boot w/ Spring Cloud Streams
-todos-query | Todo(s) CQRS impl, query pattern, Spring Boot w/ Feign Client
-todos-cache | Todo(s) cache, Spring Boot w/ Spring Data Redis and Spring Cloud Streams
-todos-data | Todos(s) Data Microservice, using Spring Boot JPA and Spring Data REST
-todos-webflux | Todo(s) REST API in Spring Boot 2.0 WebFlux for non-blocking endpoints
-todos-webclient | Todo(s) Reactive HTTP Client, used to call Todo(s) API(s)
-todos-source | Todo(s) Event Driven Source Microservice in Spring Cloud Streams
-todos-sink | Todo(s) Event Driven Sink Microservice in Spring Cloud Streams
-todos-kotlin | Todo(s) REST API in Spring Boot 2.0 implemented with Kotlin
+[todos-gateway](https://github.com/corbtastik/todos-gateway) | Todo(s) API gateway featuring Zuul
+[todos-api](https://github.com/corbtastik/todos-api) | Todo(s) REST API in Spring Boot 2.0
+[todos-restclient](https://github.com/corbtastik/todos-restclient) | Todo(s) HTTP Client, used to call Todo(s) API(s)
+[todos-command](https://github.com/corbtastik/todos-command) | Todo(s) CQRS impl, command pattern, Spring Boot w/ Spring Cloud Streams
+[todos-query](https://github.com/corbtastik/todos-query) | Todo(s) CQRS impl, query pattern, Spring Boot w/ Feign Client
+[todos-cache](https://github.com/corbtastik/todos-cache) | Todo(s) cache, Spring Boot w/ Spring Data Redis and Spring Cloud Streams
+[todos-data](https://github.com/corbtastik/todos-data) | Todos(s) Data Microservice, using Spring Boot JPA and Spring Data REST
+[todos-webflux](https://github.com/corbtastik/todos-data) | Todo(s) REST API in Spring Boot 2.0 WebFlux for non-blocking endpoints
+[todos-webclient](https://github.com/corbtastik/todos-webclient) | Todo(s) Reactive HTTP Client, used to call Todo(s) API(s)
+[todos-source](https://github.com/corbtastik/todos-source) | Todo(s) Event Driven Source Microservice in Spring Cloud Streams
+[todos-sink](https://github.com/corbtastik/todos-sink) | Todo(s) Event Driven Sink Microservice in Spring Cloud Streams
+[todos-kotlin](https://github.com/corbtastik/todos-kotlin) | Todo(s) REST API in Spring Boot 2.0 implemented with Kotlin
 
 #### Non JVM Microservice
 
 Non JVM Microservice | Description
 ------------ | -------------
-todos-nodejs | Todo(s) REST API in Node.js w/ Express.js
+[todos-nodejs](https://github.com/corbtastik/todos-nodejs) | Todo(s) REST API in Node.js w/ Express.js
 
 #### Spring Cloud Support
 
 Spring Cloud component | Description
 ------------ | -------------
-config-server | Spring Cloud Config Server, used to host external config for ecosystem
-cloud-index | Spring Cloud Netflix Eureka Server, used for Service Discovery
+[config-server](https://github.com/corbtastik/config-server) | Spring Cloud Config Server, used to host external config for ecosystem
+[cloud-index](https://github.com/corbtastik/cloud-index) | Spring Cloud Netflix Eureka Server, used for Service Discovery
 
 #### Build, Release, Run
 
 CI/CD | Description
 ------------ | -------------
-todos-cicd | Build, Release and Run scripts for local and cloud deployment of the ecosystem
+[todos-cicd](https://github.com/corbtastik/todos-cicd) | Build, Release and Run scripts for local and cloud deployment of the ecosystem
 
 ### Spring Cloud Support
 
