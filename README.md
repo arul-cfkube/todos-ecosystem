@@ -6,39 +6,39 @@ Each one of these Microservices can be developed, deployed and tested individual
 
 #### Apps
 
-App | Description
------------- | -------------
-[todos-ui](https://github.com/corbtastik/todos-ui) | todomvc.com Vue.js frontend Todo(s) UI
+App | Description | Local Port
+------------ | ------------- | -------------
+[todos-ui](https://github.com/corbtastik/todos-ui) | todomvc.com Vue.js frontend Todo(s) UI | 4040
 
 #### JVM Microservices
 
-Microservice | Description
------------- | -------------
-[todos-gateway](https://github.com/corbtastik/todos-gateway) | Todo(s) API gateway featuring Zuul
-[todos-api](https://github.com/corbtastik/todos-api) | Todo(s) REST API in Spring Boot 2.0
-[todos-restclient](https://github.com/corbtastik/todos-restclient) | Todo(s) HTTP Client, used to call Todo(s) API(s)
-[todos-command](https://github.com/corbtastik/todos-command) | Todo(s) CQRS impl, command pattern, Spring Boot w/ Spring Cloud Streams
-[todos-query](https://github.com/corbtastik/todos-query) | Todo(s) CQRS impl, query pattern, Spring Boot w/ Feign Client
-[todos-cache](https://github.com/corbtastik/todos-cache) | Todo(s) cache, Spring Boot w/ Spring Data Redis and Spring Cloud Streams
-[todos-data](https://github.com/corbtastik/todos-data) | Todos(s) Data Microservice, using Spring Boot JPA and Spring Data REST
-[todos-webflux](https://github.com/corbtastik/todos-data) | Todo(s) REST API in Spring Boot 2.0 WebFlux for non-blocking endpoints
-[todos-webclient](https://github.com/corbtastik/todos-webclient) | Todo(s) Reactive HTTP Client, used to call Todo(s) API(s)
-[todos-source](https://github.com/corbtastik/todos-source) | Todo(s) Event Driven Source Microservice in Spring Cloud Streams
-[todos-sink](https://github.com/corbtastik/todos-sink) | Todo(s) Event Driven Sink Microservice in Spring Cloud Streams
-[todos-kotlin](https://github.com/corbtastik/todos-kotlin) | Todo(s) REST API in Spring Boot 2.0 implemented with Kotlin
+Microservice | Description | Local Port
+------------ | ------------- | -------------
+[todos-gateway](https://github.com/corbtastik/todos-gateway) | Todo(s) API gateway featuring Zuul | 9999
+[todos-api](https://github.com/corbtastik/todos-api) | Todo(s) REST API in Spring Boot 2.0 | 8080
+[todos-restclient](https://github.com/corbtastik/todos-restclient) | Todo(s) HTTP Client, used to call Todo(s) API(s) | 
+[todos-command](https://github.com/corbtastik/todos-command) | Todo(s) CQRS impl, command pattern, Spring Boot w/ Spring Cloud Streams | 
+[todos-query](https://github.com/corbtastik/todos-query) | Todo(s) CQRS impl, query pattern, Spring Boot w/ Feign Client | 
+[todos-cache](https://github.com/corbtastik/todos-cache) | Todo(s) cache, Spring Boot w/ Spring Data Redis and Spring Cloud Streams |
+[todos-data](https://github.com/corbtastik/todos-data) | Todos(s) Data Microservice, using Spring Boot JPA and Spring Data REST |
+[todos-webflux](https://github.com/corbtastik/todos-data) | Todo(s) REST API in Spring Boot 2.0 WebFlux for non-blocking endpoints |
+[todos-webclient](https://github.com/corbtastik/todos-webclient) | Todo(s) Reactive HTTP Client, used to call Todo(s) API(s) | 
+[todos-source](https://github.com/corbtastik/todos-source) | Todo(s) Event Driven Source Microservice in Spring Cloud Streams | 
+[todos-sink](https://github.com/corbtastik/todos-sink) | Todo(s) Event Driven Sink Microservice in Spring Cloud Streams | 
+[todos-kotlin](https://github.com/corbtastik/todos-kotlin) | Todo(s) REST API in Spring Boot 2.0 implemented with Kotlin | 
 
 #### Non JVM Microservice
 
-Non JVM Microservice | Description
------------- | -------------
-[todos-nodejs](https://github.com/corbtastik/todos-nodejs) | Todo(s) REST API in Node.js w/ Express.js
+Non JVM Microservice | Description | Local Port
+------------ | ------------- | -------------
+[todos-nodejs](https://github.com/corbtastik/todos-nodejs) | Todo(s) REST API in Node.js w/ Express.js | 
 
 #### Spring Cloud Support
 
-Spring Cloud component | Description
------------- | -------------
-[config-server](https://github.com/corbtastik/config-server) | Spring Cloud Config Server, used to host external config for ecosystem
-[cloud-index](https://github.com/corbtastik/cloud-index) | Spring Cloud Netflix Eureka Server, used for Service Discovery
+Spring Cloud component | Description | Local Port
+------------ | ------------- | -------------
+[config-server](https://github.com/corbtastik/config-server) | Spring Cloud Config Server, used to host external config for ecosystem | 8888
+[cloud-index](https://github.com/corbtastik/cloud-index) | Spring Cloud Netflix Eureka Server, used for Service Discovery | 8761
 
 #### Build, Release, Run
 
