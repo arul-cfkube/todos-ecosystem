@@ -74,6 +74,31 @@ todos-gateway   started           1/1         1G       1G     todos-gateway.cfap
 todos-ui        started           1/1         512M     1G     todos-ui.cfapps.io
 ```
 
+Call ``/ops/info`` endpoint on Spring Boot Microservices.
+
+```bash
+> http todos-gateway.cfapps.io/ops/info
+HTTP/1.1 200 OK
+Content-Type: application/vnd.spring-boot.actuator.v2+json;charset=UTF-8
+X-Vcap-Request-Id: 55ea5199-ab82-4e50-7684-324e593c28de
+
+{
+    "build": {
+        "artifact": "todos-gateway",
+        "group": "io.corbs",
+        "name": "todos-gateway",
+        "time": "2018-06-24T19:38:24.979Z",
+        "version": "1.0.0.SNAP"
+    }
+}
+```
+
+Have a little fun with [Todo(s) UI](https://github.com/corbtastik/todos-ui.git). :relaxed: Try opening it from the gateway ``http://todos-gateway.cfapps.io`` which will put it in-front of the ``/api``.
+
+<p align="center">
+    <img src="https://github.com/corbtastik/todos-images/raw/master/todos-ui/todos-ui-online-cloudy.png" width="640">
+</p>
+
 ### The Apps, Microservices and Scripts
 
 #### Apps
