@@ -20,29 +20,37 @@ The objective is to build and deploy the [Base Set of Todo(s) Apps](#base-set) o
 
 Create a top-level directory to house all apps.  [Todo(s) CICD](https://github.com/corbtastik/todos-ui) requires all Todo(s) projects to exist on the same-level.
 
-##### Create project directory and Clone Base Set  
+##### Create project directory
 
 ```bash
 > mkdir todos-apps
 > cd todos-apps
+```
+
+##### Clone Base Set  
+
+```bash
 > git clone https://github.com/corbtastik/todos-cicd.git
 > git clone https://github.com/corbtastik/todos-gateway.git
 > git clone https://github.com/corbtastik/todos-api.git
 > git clone https://github.com/corbtastik/todos-ui.git
-> ls -l
-drwxr-xr-x todos-api
-drwxr-xr-x todos-cicd
-drwxr-xr-x todos-gateway
-drwxr-xr-x todos-ui
+```
+
+##### Deploy  
+
+Before running ``todos-cicd/part_1/deploy.sh`` edit ``todos-cicd/deploy.conf`` and add your PAS properties.  ``deploy.conf`` has presets for [Pivotal Web Services](https://run.pivotal.io).
+
+```bash
+#!/bin/bash
+cf_api="https://api.run.pivotal.io"
+cf_domain="cfapps.io"
+cf_user=""
+cf_pass=""
+cf_org=""
+cf_space=""
 ```
 
 ```bash
-mkdir todos-apps
-cd todos-apps
-git clone https://github.com/corbtastik/todos-cicd.git
-git clone https://github.com/corbtastik/todos-gateway.git
-git clone https://github.com/corbtastik/todos-api.git
-git clone https://github.com/corbtastik/todos-ui.git
 cd todos-cicd/part_1
 ./deploy.sh
 ```
