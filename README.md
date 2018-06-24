@@ -7,7 +7,7 @@ Each one of these Microservices can be developed, deployed and tested individual
 #### Apps
 
 App | Description | Local Port | PAS enabled
------------- | ------------- | -------------
+------------ | ------------- | ------------- | ------------- 
 [todos-ui](https://github.com/corbtastik/todos-ui) | todomvc.com Vue.js frontend Todo(s) UI | 4040 | NO
 
 #### JVM Microservices
