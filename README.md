@@ -13,7 +13,7 @@ App | Description | Local Port | PAS enabled
 #### JVM Microservices
 
 Microservice | Description | Local Port | PAS enabled
------------- | ------------- | -------------
+------------ | ------------- | ------------- | ------------- 
 [todos-gateway](https://github.com/corbtastik/todos-gateway) | Todo(s) API gateway featuring Zuul | 9999 | YES
 [todos-api](https://github.com/corbtastik/todos-api) | Todo(s) REST API in Spring Boot 2.0 | 8080 | NO
 [todos-restclient](https://github.com/corbtastik/todos-restclient) | Todo(s) HTTP Client, used to call Todo(s) API(s) | 8006 | NO 
