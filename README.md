@@ -4,7 +4,7 @@ Each one of these Microservices can be developed, deployed and tested individual
 
 ### Part(s)
 
-#### Part 1: Build, Deploy Base Set  
+1. [Build, Deploy Base Set](PART_1.md)
 
 This lesson focuses on building and running the base set of Todo(s) apps, which consists of
 
