@@ -1,4 +1,4 @@
-## Build, Deploy Base Set  
+## Build and Deploy Base Set  
 
 This lesson focuses on building and running the base set of Todo(s) apps, which consists of
 
