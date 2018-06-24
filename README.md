@@ -16,18 +16,18 @@ This lesson focuses on building and running the base set of Todo(s) apps, which 
 
 The objective is to build and deploy the [Base Set of Todo(s) Apps](#base-set) on PAS.  We'll be using the [Todo(s) CICD](https://github.com/corbtastik/todos-cicd) project to run bash scripts to handle each stage.
 
-##### Pre-pre
+#### Pre-Prep
 
 Create a top-level directory to house all apps.  [Todo(s) CICD](https://github.com/corbtastik/todos-ui) requires all Todo(s) projects to exist on the same-level.
 
-##### Create project directory
+#### Create project directory
 
 ```bash
 > mkdir todos-apps
 > cd todos-apps
 ```
 
-##### Clone Base Set  
+#### Clone Base Set  
 
 ```bash
 > git clone https://github.com/corbtastik/todos-cicd.git
@@ -36,7 +36,7 @@ Create a top-level directory to house all apps.  [Todo(s) CICD](https://github.c
 > git clone https://github.com/corbtastik/todos-ui.git
 ```
 
-##### Deploy  
+#### Deploy  
 
 Before running ``todos-cicd/part_1/deploy.sh`` edit ``todos-cicd/deploy.conf`` and add your PAS properties.  ``deploy.conf`` has presets for [Pivotal Web Services](https://run.pivotal.io).
 
@@ -53,18 +53,6 @@ cf_space=""
 ```bash
 cd todos-cicd/part_1
 ./deploy.sh
-```
-
-##### Release
-
-```bash
-
-```
-
-##### Run
-
-```bash
-
 ```
 
 ### The Apps, Microservices and Scripts
