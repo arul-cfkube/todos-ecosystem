@@ -59,6 +59,21 @@ cd todos-cicd/part_1
 ./deploy.sh
 ```
 
+#### Verify Part 1
+
+Do a quick sanity check on the deployment.
+
+```bash
+> cf apps
+Getting apps in org bubbles / space dev as ...
+OK
+
+name            requested state   instances   memory   disk   urls
+todos-api       started           1/1         1G       1G     todos-api.cfapps.io
+todos-gateway   started           1/1         1G       1G     todos-gateway.cfapps.io
+todos-ui        started           1/1         512M     1G     todos-ui.cfapps.io
+```
+
 ### The Apps, Microservices and Scripts
 
 #### Apps
