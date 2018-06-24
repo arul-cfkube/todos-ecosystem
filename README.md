@@ -2,6 +2,16 @@
 
 Each one of these Microservices can be developed, deployed and tested individually but each one also participates in a larger demo set thats meant to highlight Spring Boot and Cloud Foundry (specifically Pivotal Application Service, which has a Cloud Foundry core) features.
 
+### Lessons
+
+#### 1) Build, Release and Run Base Set
+
+This lesson focuses on building, releasing and running the base set of Todo(s) apps, which consists of
+
+1. [Todo(s) Gateway](https://github.com/corbtastik/todos-gateway) - Spring Cloud Zuul
+2. [Todo(s) API](https://github.com/corbtastik/todos-api) - Spring Boot API
+3. [Todo(s) UI](https://github.com/corbtastik/todos-ui) - todomvc.com Vue.js UI
+
 ### The Apps, Microservices and Scripts
 
 #### Apps
