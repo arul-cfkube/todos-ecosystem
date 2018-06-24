@@ -2,22 +2,49 @@
 
 Each one of these Microservices can be developed, deployed and tested individually but each one also participates in a larger demo set thats meant to highlight Spring Boot and Cloud Foundry (specifically Pivotal Application Service, which has a Cloud Foundry core) features.
 
-### Lessons
+### Part(s)
 
-#### Build, Release and Run Base Set
+#### Part 1: Build, Deploy Base Set  
 
-This lesson focuses on building, releasing and running the base set of Todo(s) apps, which consists of
+This lesson focuses on building and running the base set of Todo(s) apps, which consists of
+
+#### Base Set  
 
 1. [Todo(s) Gateway](https://github.com/corbtastik/todos-gateway) - Spring Cloud Zuul
 2. [Todo(s) API](https://github.com/corbtastik/todos-api) - Spring Boot API
 3. [Todo(s) UI](https://github.com/corbtastik/todos-ui) - todomvc.com Vue.js UI
 
-The objective with this lesson is to build, release and deploy the Base Set of Todo(s) Apps on PAS.  We'll be using the [Todo(s) CICD](https://github.com/corbtastik/todos-cicd) project to run bash scripts to handle each stage.
+The objective of this part is to build and deploy the Base Set of Todo(s) Apps on PAS.  We'll be using the [Todo(s) CICD](https://github.com/corbtastik/todos-cicd) project to run bash scripts to handle each part.
 
-##### Build
+##### Pre-pre
+
+Create a top-level directory to house all apps.  [Todo(s) CICD](https://github.com/corbtastik/todos-ui) requires all Todo(s) projects to exist on the same-level.
+
+##### Create project directory and Clone Base Set  
 
 ```bash
+> mkdir todos-apps
+> cd todos-apps
+> git clone https://github.com/corbtastik/todos-cicd.git
+> git clone https://github.com/corbtastik/todos-gateway.git
+> git clone https://github.com/corbtastik/todos-api.git
+> git clone https://github.com/corbtastik/todos-ui.git
+> ls -l
+drwxr-xr-x todos-api
+drwxr-xr-x todos-cicd
+drwxr-xr-x todos-gateway
+drwxr-xr-x todos-ui
+```
 
+```bash
+mkdir todos-apps
+cd todos-apps
+git clone https://github.com/corbtastik/todos-cicd.git
+git clone https://github.com/corbtastik/todos-gateway.git
+git clone https://github.com/corbtastik/todos-api.git
+git clone https://github.com/corbtastik/todos-ui.git
+cd todos-cicd/part_1
+./deploy.sh
 ```
 
 ##### Release
