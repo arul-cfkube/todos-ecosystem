@@ -36,7 +36,7 @@ Create a top-level directory to house all apps.  [Todo(s) CICD](https://github.c
 > git clone https://github.com/corbtastik/todos-ui.git
 ```
 
-#### Deploy  
+#### PAS Properties  
 
 Before running ``todos-cicd/part_1/deploy.sh`` edit ``todos-cicd/deploy.conf`` and add your PAS properties.  ``deploy.conf`` has presets for [Pivotal Web Services](https://run.pivotal.io).
 
@@ -49,6 +49,10 @@ cf_pass=""
 cf_org=""
 cf_space=""
 ```
+
+#### Deploy  
+
+Once [PAS Properties](#pas-properties) are set it's time to point-and-click and coolout while we burst into the cloud. :sunglasses:
 
 ```bash
 cd todos-cicd/part_1
