@@ -14,7 +14,7 @@ This lesson focuses on building and running the base set of Todo(s) apps, which 
 2. [Todo(s) API](https://github.com/corbtastik/todos-api) - Spring Boot API
 3. [Todo(s) UI](https://github.com/corbtastik/todos-ui) - todomvc.com Vue.js UI
 
-The objective of this part is to build and deploy the Base Set of Todo(s) Apps on PAS.  We'll be using the [Todo(s) CICD](https://github.com/corbtastik/todos-cicd) project to run bash scripts to handle each part.
+The objective is to build and deploy the Base Set of Todo(s) Apps on PAS.  We'll be using the [Todo(s) CICD](https://github.com/corbtastik/todos-cicd) project to run bash scripts to handle each part.
 
 ##### Pre-pre
 
