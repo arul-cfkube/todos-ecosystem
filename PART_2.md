@@ -121,4 +121,10 @@ X-Vcap-Request-Id: 3e4e4a36-7771-46f5-66b0-3d62e7c2cf59
   </instance>
 </application>
 
-```
+```  
+
+### Stay Frosty  
+
+### References
+
+* [Eureka in 10 mins](https://blog.asarkar.org/technical/netflix-eureka/)
