@@ -50,9 +50,7 @@ config-server   started           1/1         1G       1G     config-srv.cfapps.
 
 Call endpoints on the Cloud Index and Config Server.
 
-##### Call ops endpoint  
-
-Call ``/ops/info`` endpoint on Spring Boot Microservices.
+##### Call ``/ops/info`` endpoint on Spring Boot Microservices.
 
 ```bash
 > http config-srv.cfapps.io/ops/info
