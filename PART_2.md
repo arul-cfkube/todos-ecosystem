@@ -7,7 +7,7 @@ This Part focuses on building out Spring Cloud to support the Todo(s) EcoSystem 
 1. [Config Server](https://github.com/corbtastik/config-server) - Spring Cloud Config Server
 2. [Cloud Index](https://github.com/corbtastik/cloud-index) - Spring Cloud Service Discovery
 
-The objective is to build and deploy the [Spring Cloud Set](#spring-cloud-set) on PAS and confirm the [Base Set](#PART_1#base-set) integrates with Config and Service Discovery.  We'll be using the [Todo(s) CICD](https://github.com/corbtastik/todos-cicd) project to run bash scripts to handle each stage.
+The objective is to build and deploy the [Spring Cloud Set](#spring-cloud-set) on PAS and confirm the [Base Set](https://github.com/corbtastik/todos-ecosystem/blob/master/PART_1.md#base-set) integrates with Config and Service Discovery.  We'll be using the [Todo(s) CICD](https://github.com/corbtastik/todos-cicd) project to run bash scripts to handle each stage.
 
 ### PrePrep
 
