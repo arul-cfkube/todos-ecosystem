@@ -1,25 +1,17 @@
-## Build and Deploy Spring Cloud  
+## Build and Deploy Spring Cloud   
 
-This lesson focuses on building and running the base set of Todo(s) apps, which consists of
+This Part focuses on building out Spring Cloud to support the Todo(s) EcoSystem we deployed in Part 1.  Once completed the Base Set will integrate with [Spring Cloud Config Server](https://github.com/spring-cloud/spring-cloud-config) and [Service Registry](https://spring.io/blog/2015/01/20/microservice-registration-and-discovery-with-spring-cloud-and-netflix-s-eureka).
 
-### Base Set  
+### Spring Cloud Set
 
-1. [Todo(s) Gateway](https://github.com/corbtastik/todos-gateway) - Spring Cloud Zuul
-2. [Todo(s) API](https://github.com/corbtastik/todos-api) - Spring Boot API
-3. [Todo(s) UI](https://github.com/corbtastik/todos-ui) - todomvc.com Vue.js UI
+1. [Config Server](https://github.com/corbtastik/config-server) - Spring Cloud Config Server
+2. [Cloud Index](https://github.com/corbtastik/cloud-index) - Spring Cloud Service Discovery
 
-The objective is to build and deploy the [Base Set of Todo(s) Apps](#base-set) on PAS.  We'll be using the [Todo(s) CICD](https://github.com/corbtastik/todos-cicd) project to run bash scripts to handle each stage.
+The objective is to build and deploy the [Spring Cloud Set](#spring-cloud-set) on PAS and confirm the [Base Set](#PART_1#base-set) integrates with Config and Service Discovery.  We'll be using the [Todo(s) CICD](https://github.com/corbtastik/todos-cicd) project to run bash scripts to handle each stage.
 
-### Pre-Prep
+### PrePrep
 
-Create a top-level directory to house all apps.  [Todo(s) CICD](https://github.com/corbtastik/todos-ui) requires all Todo(s) projects to exist on the same-level.
-
-### Create project directory
-
-```bash
-> mkdir todos-apps
-> cd todos-apps
-```
+If you've not completed [PrePrep](#PREPREP.md) now would be a good time to do that :smile:
 
 ### Clone Base Set  
 
