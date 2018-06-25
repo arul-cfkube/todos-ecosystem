@@ -1,6 +1,6 @@
 ## Build and Deploy Todo(s) Data  
 
-This Part focuses on adding Todo persistance into the eco-system, which amounts to deploying [Todo(s) Data](https://github.com/corbtastik/todos-data) and binding it to a MySQL [Backing Service](https://12factor.net/backing-services).
+This Part focuses on adding Todo persistance into the [EcoSystem](/README.md), which amounts to deploying [Todo(s) Data](https://github.com/corbtastik/todos-data) and binding it to a MySQL [Backing Service](https://12factor.net/backing-services).
 
 This Part focuses on building out Spring Cloud to support the Todo(s) EcoSystem we deployed in Part 1.  Once completed the Base Set will integrate with [Spring Cloud Config Server](https://github.com/spring-cloud/spring-cloud-config) and [Service Registry](https://spring.io/blog/2015/01/20/microservice-registration-and-discovery-with-spring-cloud-and-netflix-s-eureka).
 
