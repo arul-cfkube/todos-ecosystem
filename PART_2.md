@@ -7,7 +7,7 @@ This Part focuses on building out Spring Cloud to support the Todo(s) EcoSystem 
 1. [Config Server](https://github.com/corbtastik/config-server) - Spring Cloud Config Server
 2. [Cloud Index](https://github.com/corbtastik/cloud-index) - Spring Cloud Service Discovery
 
-The objective is to build and deploy the [Spring Cloud Set](#spring-cloud-set) on PAS and confirm the [Base Set](https://github.com/corbtastik/todos-ecosystem/blob/master/PART_1.md#base-set) integrates with Config and Service Discovery.  We'll be using the [Todo(s) CICD](https://github.com/corbtastik/todos-cicd) project to run bash scripts to handle each stage.
+The objective is to build and deploy the [Spring Cloud Set](#spring-cloud-set) on PAS and confirm the [Base Set](/PART_1.md#base-set) integrates with Config and Service Discovery.  We'll be using the [Todo(s) CICD](https://github.com/corbtastik/todos-cicd) project to run bash scripts to handle each stage.
 
 ### PrePrep
 
@@ -25,7 +25,7 @@ The objective is to build and deploy the [Spring Cloud Set](#spring-cloud-set) o
 
 :heavy_exclamation_mark: Make sure to set your git-repo URI in [Config Server]("") ``vars.yml`` before running deploy.  See [Config Server]("") for more information.
 
-Once [PAS Properties](https://github.com/corbtastik/todos-ecosystem/blob/master/PREPREP.md#pas-properties) are set it's time to point-and-click and coolout while we burst into the cloud. :sunglasses:
+Once [PAS Properties](/PREPREP.md#pas-properties) are set it's time to point-and-click and coolout while we burst into the cloud. :sunglasses:
 
 ```bash
 > cd $TODOS_HOME/todos-cicd/part_2
@@ -73,7 +73,7 @@ X-Vcap-Request-Id: 5ef5b69c-2fc9-442b-77e1-6043abcb7174
 
 ##### Call Eureka endpoint to get Todo(s) API info  
 
-[Part 1](/#PART_1.md) deployed an instance of Todo(s) API to PAS which was Spring Cloud ready.  When we bring Cloud Index online, Todo(s) API will register and download the Service Registry from Eureka. Call the eureka endpoint directly and get information about Todo(s) API.  Notice the ``<leaseInfo>`` element which indicates Todo(s) API will check-in with Eureka every 30s.
+[Part 1](/PART_1.md) deployed an instance of Todo(s) API to PAS which was Spring Cloud ready.  When we bring Cloud Index online, Todo(s) API will register and download the Service Registry from Eureka. Call the eureka endpoint directly and get information about Todo(s) API.  Notice the ``<leaseInfo>`` element which indicates Todo(s) API will check-in with Eureka every 30s.
 
 ```bash
 > http cloud-index.cfapps.io/eureka/apps/todos-api
