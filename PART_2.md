@@ -11,7 +11,7 @@ The objective is to build and deploy the [Spring Cloud Set](#spring-cloud-set) o
 
 ### PrePrep
 
-If you've not completed [PrePrep](#PREPREP.md) now would be a good time to do that :smile:
+If you've not completed [PrePrep](https://github.com/corbtastik/todos-ecosystem/blob/master/PREPREP.md) now would be a good time to do that :smile:
 
 ### Clone Base Set  
 

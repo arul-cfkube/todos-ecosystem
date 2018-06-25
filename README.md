@@ -1,6 +1,6 @@
 ## Todo(s) Ecosystem of Microservices
 
-Each one of these Microservices can be developed and deployed individually but each one also participates in a larger demo set thats meant to highlight Spring Boot and Pivotal Application Service (Cloud Foundry core) features.
+Each one of these Microservices can be developed and deployed individually but each one also participates in a larger demo set thats meant to highlight [Spring Boot](https://spring.io/projects/spring-boot) and [Pivotal Application Service](https://pivotal.io/platform/pivotal-application-service) feartures.
 
 ### Part(s)
 
