@@ -73,7 +73,7 @@ X-Vcap-Request-Id: 5ef5b69c-2fc9-442b-77e1-6043abcb7174
 
 ##### Call Eureka endpoint to get Todo(s) API info  
 
-[Part 1](#PART_1.md) deployed an instance of Todo(s) API to PAS which was Spring Cloud ready.  When we bring Cloud Index online, Todo(s) API will register and download the Service Registry from Eureka. Call the eureka endpoint directly and get information about Todo(s) API.  Notice the ``<leaseInfo>`` element indicates the lease is renwed every 30s, which means Todo(s) API will check-in with Eureka every 30s.
+[Part 1](/#PART_1.md) deployed an instance of Todo(s) API to PAS which was Spring Cloud ready.  When we bring Cloud Index online, Todo(s) API will register and download the Service Registry from Eureka. Call the eureka endpoint directly and get information about Todo(s) API.  Notice the ``<leaseInfo>`` element which indicates Todo(s) API will check-in with Eureka every 30s.
 
 ```bash
 > http cloud-index.cfapps.io/eureka/apps/todos-api
