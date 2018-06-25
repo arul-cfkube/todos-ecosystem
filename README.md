@@ -1,21 +1,21 @@
 ## Todo(s) Ecosystem of Microservices
 
-Each one of these Microservices can be developed, deployed and tested individually but each one also participates in a larger demo set thats meant to highlight Spring Boot and Cloud Foundry (specifically Pivotal Application Service, which has a Cloud Foundry core) features.
+Each one of these Microservices can be developed and deployed individually but each one also participates in a larger demo set thats meant to highlight Spring Boot and Pivotal Application Service (Cloud Foundry core) features.
 
 ### Part(s)
+
+The Ecosystem is divided into smaller parts, each highlighting specific features of [Spring Boot](https://spring.io/projects/spring-boot), [Spring Cloud](https://projects.spring.io/spring-cloud/) and [Pivotal Application Service](https://pivotal.io/platform/pivotal-application-service).  Feel free to clone and play around with [each one](#apps) individually or work through these Part(s) which builds out the EcoSystem on the [Cloud](https://run.pivotal.io/).
 
 1. [Build and Deploy Base Set](PART_1.md) - build and cf push...awe yeah
 2. [Build and Deploy Spring Cloud](PART_2.md) - build and cf push Spring Cloud stack
 
-### The Apps, Microservices and Scripts
-
-#### Apps
+### Apps
 
 App | Description | Local Port | PAS enabled
 ------------ | ------------- | ------------- | -------------  
 [todos-ui](https://github.com/corbtastik/todos-ui) | todomvc.com Vue.js frontend Todo(s) UI | 4040 | [yes](https://github.com/corbtastik/todos-ui#run-on-pas)
 
-#### JVM Microservices
+### JVM Microservices
 
 Microservice | Description | Local Port | PAS enabled
 ------------ | ------------- | ------------- | -------------  
@@ -32,20 +32,20 @@ Microservice | Description | Local Port | PAS enabled
 [todos-sink](https://github.com/corbtastik/todos-sink) | Todo(s) Event Driven Sink Microservice in Spring Cloud Streams |  
 [todos-kotlin](https://github.com/corbtastik/todos-kotlin) | Todo(s) REST API in Spring Boot 2.0 implemented with Kotlin |  
 
-#### Non JVM Microservice
+### Non JVM Microservice
 
 Non JVM Microservice | Description | Local Port
 ------------ | ------------- | -------------
 [todos-nodejs](https://github.com/corbtastik/todos-nodejs) | Todo(s) REST API in Node.js w/ Express.js | 
 
-#### Spring Cloud Support
+### Spring Cloud Support
 
 Spring Cloud component | Description | Local Port
 ------------ | ------------- | -------------
 [config-server](https://github.com/corbtastik/config-server) | Spring Cloud Config Server, used to host external config for ecosystem | 8888
 [cloud-index](https://github.com/corbtastik/cloud-index) | Spring Cloud Netflix Eureka Server, used for Service Discovery | 8761
 
-#### Build, Release, Run
+### Build, Release, Run
 
 CI/CD | Description
 ------------ | -------------
