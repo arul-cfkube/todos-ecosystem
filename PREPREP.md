@@ -25,3 +25,9 @@ cf_pass=""
 cf_org=""
 cf_space=""
 ```
+
+### PAS Servives
+
+* MySQL
+* RabbitMQ
+* Redis

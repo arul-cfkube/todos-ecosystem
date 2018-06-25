@@ -1,12 +1,12 @@
 ## Build and Deploy Todo(s) Data  
 
-This Part focuses on adding Todo persistance into the [EcoSystem](/README.md), which amounts to deploying [Todo(s) Data](https://github.com/corbtastik/todos-data) Microservice and binding it to a MySQL [Backing Service](https://12factor.net/backing-services).
+This Part focuses on adding Todo persistance into the [EcoSystem](/README.md), which amounts to deploying the [Todo(s) Data](https://github.com/corbtastik/todos-data) Microservice and binding it to a MySQL [Backing Service](https://12factor.net/backing-services).
 
 ### Todo(s) Data
 
 1. [Todo(s) Data](https://github.com/corbtastik/todos-data) - add todos persistence  
 
-The objective is to build and deploy the [Todo(s) Data](#todos-data) on PAS and binding it to a MySQL [Backing Service](https://12factor.net/backing-services).  We'll be using the [Todo(s) CICD](https://github.com/corbtastik/todos-cicd) project to run bash scripts to handle each stage.
+The objective is to build and deploy the [Todo(s) Data](#todos-data) on PAS and bind it to a MySQL [Backing Service](https://12factor.net/backing-services).  We'll be using the [Todo(s) CICD](https://github.com/corbtastik/todos-cicd) project to run bash scripts to handle each stage.
 
 ### PrePrep
 
@@ -20,3 +20,12 @@ The objective is to build and deploy the [Todo(s) Data](#todos-data) on PAS and 
 ```
 
 ### Deploy  
+
+Once [PAS Properties](/PREPREP.md#pas-properties) are set it's time to point-and-click and coolout while we burst into the cloud. :sunglasses:
+
+```bash
+> cd $TODOS_HOME/todos-cicd/part_3
+> ./deploy.sh
+```
+
+### Verify Part 2
