@@ -71,12 +71,43 @@ X-Vcap-Request-Id: 5ef5b69c-2fc9-442b-77e1-6043abcb7174
 }
 ```
 
-##### 
-#### Verify UI
+##### Call Eureka endpoint to get Todo(s) API info  
 
-Have a little fun with [Todo(s) UI](https://github.com/corbtastik/todos-ui.git). :relaxed: Try opening it from the gateway ``http://todos-gateway.cfapps.io`` which will put it in-front of the ``/api``.
+[Part 1](#PART_1.md) deployed an instance of Todo(s) API to PAS which was Spring Cloud ready.  When we bring Cloud Index online, Todo(s) API will register and download the Service Registry from Eureka. Call the eureka endpoint directly and get information about Todo(s) API.  Notice the ``<leaseInfo>`` element indicates the lease is renwed every 30s, which means Todo(s) API will check-in with Eureka every 30s.
 
-<p align="center">
-    <img src="https://github.com/corbtastik/todos-images/raw/master/todos-ui/todos-ui-online-cloudy.png" width="640">
-</p>
+```bash
+> http cloud-index.cfapps.io/eureka/apps/todos-api
+HTTP/1.1 200 OK
+Content-Type: application/xml
+X-Vcap-Request-Id: 3e4e4a36-7771-46f5-66b0-3d62e7c2cf59
 
+<application>
+  <name>TODOS-API</name>
+  <instance>
+    <instanceId>df3e734c-ba96-4b60-6be3-80e2</instanceId>
+    <hostName>df3e734c-ba96-4b60-6be3-80e2</hostName>
+    <app>TODOS-API</app>
+    <ipAddr>10.252.182.241</ipAddr>
+    <status>UP</status>
+    <overriddenstatus>UNKNOWN</overriddenstatus>
+    <port enabled="true">8080</port>
+    <countryId>1</countryId>
+    <leaseInfo>
+      <renewalIntervalInSecs>30</renewalIntervalInSecs>
+      <durationInSecs>90</durationInSecs>
+      <registrationTimestamp>1529938712317</registrationTimestamp>
+      <lastRenewalTimestamp>1529943873950</lastRenewalTimestamp>
+      <evictionTimestamp>0</evictionTimestamp>
+      <serviceUpTimestamp>1529938712317</serviceUpTimestamp>
+    </leaseInfo>
+    <metadata>
+      <management.port>8080</management.port>
+    </metadata>
+    <vipAddress>todos-api</vipAddress>
+    <lastUpdatedTimestamp>1529938712317</lastUpdatedTimestamp>
+    <lastDirtyTimestamp>1529938712308</lastDirtyTimestamp>
+    <actionType>ADDED</actionType>
+  </instance>
+</application>
+
+```
