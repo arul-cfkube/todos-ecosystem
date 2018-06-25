@@ -16,6 +16,7 @@ The objective is to build and deploy the [Spring Cloud Set](#spring-cloud-set) o
 ### Clone Spring Cloud Set  
 
 ```bash
+> cd $TODOS_HOME
 > git clone https://github.com/corbtastik/config-server.git
 > git clone https://github.com/corbtastik/cloud-index.git
 ```
@@ -25,7 +26,7 @@ The objective is to build and deploy the [Spring Cloud Set](#spring-cloud-set) o
 Once [PAS Properties](https://github.com/corbtastik/todos-ecosystem/blob/master/PREPREP.md#pas-properties) are set it's time to point-and-click and coolout while we burst into the cloud. :sunglasses:
 
 ```bash
-cd todos-cicd/part_1
+cd todos-cicd/part_2
 ./deploy.sh
 ```
 
