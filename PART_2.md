@@ -11,29 +11,13 @@ The objective is to build and deploy the [Spring Cloud Set](#spring-cloud-set) o
 
 ### PrePrep
 
-If you've not completed [PrePrep](https://github.com/corbtastik/todos-ecosystem/blob/master/PREPREP.md) now would be a good time to do that :smile:
+:heavy_exclamation_mark: If you've not completed [PrePrep](https://github.com/corbtastik/todos-ecosystem/blob/master/PREPREP.md) now would be a good time to do that :smile:
 
-### Clone Base Set  
-
-```bash
-> git clone https://github.com/corbtastik/todos-cicd.git
-> git clone https://github.com/corbtastik/todos-gateway.git
-> git clone https://github.com/corbtastik/todos-api.git
-> git clone https://github.com/corbtastik/todos-ui.git
-```
-
-### PAS Properties  
-
-Before running ``todos-cicd/part_1/deploy.sh`` edit ``todos-cicd/deploy.conf`` and add your PAS properties.  ``deploy.conf`` has presets for [Pivotal Web Services](https://run.pivotal.io).
+### Clone Spring Cloud Set  
 
 ```bash
-#!/bin/bash
-cf_api="https://api.run.pivotal.io"
-cf_domain="cfapps.io"
-cf_user=""
-cf_pass=""
-cf_org=""
-cf_space=""
+> git clone https://github.com/corbtastik/config-server.git
+> git clone https://github.com/corbtastik/cloud-index.git
 ```
 
 ### Deploy  
