@@ -1,4 +1,4 @@
-## Build and Deploy Spring Cloud  
+## Build and Deploy Base Set  
 
 This lesson focuses on building and running the base set of Todo(s) apps, which consists of
 
@@ -10,16 +10,9 @@ This lesson focuses on building and running the base set of Todo(s) apps, which 
 
 The objective is to build and deploy the [Base Set of Todo(s) Apps](#base-set) on PAS.  We'll be using the [Todo(s) CICD](https://github.com/corbtastik/todos-cicd) project to run bash scripts to handle each stage.
 
-### Pre-Prep
+### PrePrep
 
-Create a top-level directory to house all apps.  [Todo(s) CICD](https://github.com/corbtastik/todos-ui) requires all Todo(s) projects to exist on the same-level.
-
-### Create project directory
-
-```bash
-> mkdir todos-apps
-> cd todos-apps
-```
+If you've not completed [PrePrep](https://github.com/corbtastik/todos-ecosystem/blob/master/PREPREP.md) now would be a good time to do that :smile:
 
 ### Clone Base Set  
 
