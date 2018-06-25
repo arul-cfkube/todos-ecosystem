@@ -26,11 +26,11 @@ The objective is to build and deploy the [Spring Cloud Set](#spring-cloud-set) o
 Once [PAS Properties](https://github.com/corbtastik/todos-ecosystem/blob/master/PREPREP.md#pas-properties) are set it's time to point-and-click and coolout while we burst into the cloud. :sunglasses:
 
 ```bash
-cd todos-cicd/part_2
+cd $TODOS_HOME/todos-cicd/part_2
 ./deploy.sh
 ```
 
-### Verify Part 1
+### Verify Part 2
 
 #### Verify Deployment  
 
@@ -42,9 +42,8 @@ Getting apps in org bubbles / space dev as ...
 OK
 
 name            requested state   instances   memory   disk   urls
-todos-api       started           1/1         1G       1G     todos-api.cfapps.io
-todos-gateway   started           1/1         1G       1G     todos-gateway.cfapps.io
-todos-ui        started           1/1         512M     1G     todos-ui.cfapps.io
+cloud-index     started           1/1         1G       1G     cloud-index.cfapps.io
+config-server   started           1/1         1G       1G     config-srv.cfapps.io
 ```
 
 #### Verify Endpoints  
@@ -52,17 +51,17 @@ todos-ui        started           1/1         512M     1G     todos-ui.cfapps.io
 Call ``/ops/info`` endpoint on Spring Boot Microservices.
 
 ```bash
-> http todos-gateway.cfapps.io/ops/info
+> http config-srv.cfapps.io/ops/info
 HTTP/1.1 200 OK
 Content-Type: application/vnd.spring-boot.actuator.v2+json;charset=UTF-8
-X-Vcap-Request-Id: 55ea5199-ab82-4e50-7684-324e593c28de
+X-Vcap-Request-Id: 5ef5b69c-2fc9-442b-77e1-6043abcb7174
 
 {
     "build": {
-        "artifact": "todos-gateway",
+        "artifact": "config-server",
         "group": "io.corbs",
-        "name": "todos-gateway",
-        "time": "2018-06-24T19:38:24.979Z",
+        "name": "config-server",
+        "time": "2018-06-25T15:49:59.559Z",
         "version": "1.0.0.SNAP"
     }
 }
