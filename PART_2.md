@@ -23,6 +23,8 @@ The objective is to build and deploy the [Spring Cloud Set](#spring-cloud-set) o
 
 ### Deploy  
 
+:heavy_exclamation_mark: Make sure to set your git-repo URI in [Config Server]("") ``vars.yml`` before running deploy.  See [Config Server]("") for more information.
+
 Once [PAS Properties](https://github.com/corbtastik/todos-ecosystem/blob/master/PREPREP.md#pas-properties) are set it's time to point-and-click and coolout while we burst into the cloud. :sunglasses:
 
 ```bash
