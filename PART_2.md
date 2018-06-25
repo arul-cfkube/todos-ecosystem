@@ -48,6 +48,10 @@ config-server   started           1/1         1G       1G     config-srv.cfapps.
 
 #### Verify Endpoints  
 
+Call endpoints on the Cloud Index and Config Server.
+
+##### Call ops endpoint  
+
 Call ``/ops/info`` endpoint on Spring Boot Microservices.
 
 ```bash
@@ -67,6 +71,7 @@ X-Vcap-Request-Id: 5ef5b69c-2fc9-442b-77e1-6043abcb7174
 }
 ```
 
+##### 
 #### Verify UI
 
 Have a little fun with [Todo(s) UI](https://github.com/corbtastik/todos-ui.git). :relaxed: Try opening it from the gateway ``http://todos-gateway.cfapps.io`` which will put it in-front of the ``/api``.
