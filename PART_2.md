@@ -71,6 +71,17 @@ X-Vcap-Request-Id: 5ef5b69c-2fc9-442b-77e1-6043abcb7174
 }
 ```
 
+##### Call Eureka endpoint to list App(s)
+
+If you've completed [Part 1](/PART_1.md) then you should see apps for [Todo(s) Gateway](https://github.com/corbtastik/todos-gateway), [Todo(s) API](https://github.com/corbtastik/todos-api) and now [Config Server](https://github.com/corbtastik/config-server).
+
+```bash
+> http cloud-index.cfapps.io/eureka/apps | grep "<app>"  
+      <app>TODOS-GATEWAY</app>
+      <app>TODOS-API</app>
+      <app>CONFIG-SERVER</app>
+```
+
 ##### Call Eureka endpoint to get Todo(s) API info  
 
 [Part 1](/PART_1.md) deployed an instance of Todo(s) API to PAS which was Spring Cloud ready.  When we bring Cloud Index online, Todo(s) API will register and download the Service Registry from Eureka. Call the eureka endpoint directly and get information about Todo(s) API.  Notice the ``<leaseInfo>`` element which indicates Todo(s) API will check-in with Eureka every 30s.
