@@ -32,10 +32,6 @@ Once [PAS Properties](/PREPREP.md#pas-properties) are set it's time to point-and
 
 #### Verify Deployment  
 
-Do a quick sanity check on the deployment.
-
-```bash
-> cf apps
-Getting apps in org bubbles / space dev as ...
+Do a quick [sanity check](https://github.com/corbtastik/todos-cache#verify-on-cloud) on the deployment.
 
 ```
