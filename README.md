@@ -23,7 +23,7 @@ Microservice | Description | Local Port | PAS enabled
 ------------ | ------------- | ------------- | -------------  
 [todos-gateway](https://github.com/corbtastik/todos-gateway) | Todo(s) API gateway featuring Zuul | 9999 | [yes](https://github.com/corbtastik/todos-gateway#run-on-pas)
 [todos-api](https://github.com/corbtastik/todos-api) | Todo(s) REST API in Spring Boot 2.0 | 8080 | [yes](https://github.com/corbtastik/todos-api#run-on-pas)  
-[todos-restclient](https://github.com/corbtastik/todos-restclient) | Todo(s) HTTP Client, used to call Todo(s) API(s) | 8006 | NO  
+[todos-restclient](https://github.com/corbtastik/todos-restclient) | Todo(s) HTTP Client, used to call Todo(s) API(s) | 8006 |   
 [todos-command](https://github.com/corbtastik/todos-command) | Todo(s) CQRS impl, command pattern, Spring Boot w/ Spring Cloud Streams |  
 [todos-query](https://github.com/corbtastik/todos-query) | Todo(s) CQRS impl, query pattern, Spring Boot w/ Feign Client |  
 [todos-cache](https://github.com/corbtastik/todos-cache) | Todo(s) cache, Spring Boot w/ Spring Data Redis and Spring Cloud Streams | [yes](https://github.com/corbtastik/todos-cache#run-on-pas)
