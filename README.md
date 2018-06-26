@@ -6,11 +6,14 @@ Each one of these Microservices can be developed and deployed individually but e
 
 The Ecosystem is divided into smaller parts, each highlighting specific features of [Spring Boot](https://spring.io/projects/spring-boot), [Spring Cloud](https://projects.spring.io/spring-cloud/) and [Pivotal Application Service](https://pivotal.io/platform/pivotal-application-service).  Feel free to clone and play around with [each one](#apps) individually or work through these Part(s) which builds out the EcoSystem on the [Cloud](https://run.pivotal.io/).
 
-1. [Build and Deploy Base Set](PART_1.md) - build and cf push...awe yeah
-2. [Build and Deploy Spring Cloud](PART_2.md) - build and cf push Spring Cloud stack
-3. [Build and Deploy Todo(s) Data](PART_3.md) - build and cf push Todo(s) Data to enable saving Todo(s)
-4. [Build and Deploy Todo(s) Cache](PART_4.md) - build and cf push Todo(s) Cache
-5. [Build and Deploy Todo(s) CQrS](PART_5.md) - build and cf push Todo(s) CQrS
+#### Build and Deploy  
+
+
+1. [Todo(s) Base Set](PART_1.md) - cf push...awe yeah :sunglasses:
+2. [Spring Cloud](PART_2.md) - Spring Cloud stack
+3. [Todo(s) Data](PART_3.md) - Todo(s) Data to enable SQL persistence
+4. [Todo(s) Cache](PART_4.md) - Todo(s) Cache to enable Redis caching
+5. [Todo(s) CQrS](PART_5.md) - Todo(s) CQrS implementation
 
 ### Apps
 
