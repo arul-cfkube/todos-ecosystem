@@ -10,6 +10,7 @@ The Ecosystem is divided into smaller parts, each highlighting specific features
 2. [Build and Deploy Spring Cloud](PART_2.md) - build and cf push Spring Cloud stack
 3. [Build and Deploy Todo(s) Data](PART_3.md) - build and cf push Todo(s) Data to enable saving Todo(s)
 4. [Build and Deploy Todo(s) Cache](PART_4.md) - build and cf push Todo(s) Cache
+5. [Build and Deploy Todo(s) CQrS](PART_5.md) - build and cf push Todo(s) CQrS
 
 ### Apps
 
