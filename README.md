@@ -26,7 +26,7 @@ Microservice | Description | Local Port | PAS enabled
 [todos-restclient](https://github.com/corbtastik/todos-restclient) | Todo(s) HTTP Client, used to call Todo(s) API(s) | 8006 |   
 [todos-command](https://github.com/corbtastik/todos-command) | Todo(s) CQRS impl, command pattern, Spring Boot w/ Spring Cloud Streams |  
 [todos-query](https://github.com/corbtastik/todos-query) | Todo(s) CQRS impl, query pattern, Spring Boot w/ Feign Client |  
-[todos-cache](https://github.com/corbtastik/todos-cache) | Todo(s) cache, Spring Boot w/ Spring Data Redis and Spring Cloud Streams | [yes](https://github.com/corbtastik/todos-cache#run-on-pas)
+[todos-cache](https://github.com/corbtastik/todos-cache) | Todo(s) cache, Spring Boot w/ Spring Data Redis and Spring Cloud Streams |   | [yes](https://github.com/corbtastik/todos-cache#run-on-pas)
 [todos-data](https://github.com/corbtastik/todos-data) | Todos(s) Data Microservice, using Spring Boot JPA and Spring Data REST | 8003 | [yes](https://github.com/corbtastik/todos-data#run-on-pas)
 [todos-webflux](https://github.com/corbtastik/todos-data) | Todo(s) REST API in Spring Boot 2.0 WebFlux for non-blocking endpoints |
 [todos-webclient](https://github.com/corbtastik/todos-webclient) | Todo(s) Reactive HTTP Client, used to call Todo(s) API(s) |  
