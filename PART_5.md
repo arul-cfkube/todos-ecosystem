@@ -4,6 +4,18 @@ This Part focuses on building and deploying a [CQrS](https://martinfowler.com/bl
 
 If you've completed all previous [parts](/README.md#parts) then at the end of this lesson you'll have the following picture deployed locally and on [PAS](http://run.pivotal.io/).
 
+### Eco on Local
+
+<p align="center">
+  <img src="https://github.com/corbtastik/todos-images/blob/master/todos-ecosystem/TodosCqRS-Local.png" width="640">
+</p>
+
+### Eco on PAS
+
+<p align="center">
+  <img src="https://github.com/corbtastik/todos-images/blob/master/todos-ecosystem/TodosCqRS-PAS.png" width="640">
+</p>
+
 ### PrePrep
 
 :heavy_exclamation_mark: If you've not completed [PrePrep](https://github.com/corbtastik/todos-ecosystem/blob/master/PREPREP.md) now would be a good time to do that :smile:
