@@ -49,3 +49,11 @@ Once [PAS Properties](/PREPREP.md#pas-properties) are set it's time to point-and
 > cd $TODOS_HOME/todos-cicd/part_5
 > ./deploy.sh
 ```
+
+### Verify on PAS
+
+Open a browser to the gateway URL and play around.
+
+<p align="center">
+  <img src="https://github.com/corbtastik/todos-images/blob/master/todos-ui/todos-ui-cloudy.png" width="640">
+</p>
