@@ -7,13 +7,13 @@ If you've completed all previous [parts](/README.md#parts) then at the end of th
 ### Eco on Local
 
 <p align="center">
-  <img src="https://github.com/corbtastik/todos-images/blob/master/todos-ecosystem/TodosCqRS-Local.png" width="640">
+  <img src="https://github.com/corbtastik/todos-images/blob/master/todos-ecosystem/TodosCqRS-Local.png" width="480">
 </p>
 
 ### Eco on PAS
 
 <p align="center">
-  <img src="https://github.com/corbtastik/todos-images/blob/master/todos-ecosystem/TodosCqRS-PAS.png" width="640">
+  <img src="https://github.com/corbtastik/todos-images/blob/master/todos-ecosystem/TodosCqRS-PAS.png" width="480">
 </p>
 
 ### PrePrep
