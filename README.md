@@ -2,7 +2,7 @@
 
 Each of these Microservices can be developed and deployed individually or as an EcoSystem of Microservices.
 
-The main goals of the EcoSystem
+EcoSystem Goals:
 
 1. Highlight [Spring Boot](https://spring.io/projects/spring-boot) Microservices on [Pivotal Application Service](https://pivotal.io/platform/pivotal-application-service)  
 1. Demo by doing  
