@@ -1,6 +1,12 @@
 ## Todo(s) Ecosystem of Microservices
 
-Each of these Microservices can be developed and deployed individually but each also participates in a larger demo set thats meant to highlight [Spring Boot](https://spring.io/projects/spring-boot) and [Pivotal Application Service](https://pivotal.io/platform/pivotal-application-service) features.
+Each of these Microservices can be developed and deployed individually or as an EcoSystem of Microservices.
+
+The main goals of the EcoSystem
+
+1. Highlight [Spring Boot](https://spring.io/projects/spring-boot) Microservices on [Pivotal Application Service](https://pivotal.io/platform/pivotal-application-service)  
+1. Demo by doing  
+1. Proving ground
 
 ### Part(s)
 
