@@ -28,17 +28,12 @@ Build each maven project then run from the command line or your IDE.  Todos UI i
 
 #### Build each project
 
-You can also run the provided ``build.sh`` script from the directory that contains each project.  For example the ``WORKSPACE`` directory shown below.
-
 ```bash
 # where WORKSPACE is any directory you have write access
 $WORKSPACE/todos-api
 $WORKSPACE/todos-cloud-gateway
 $WORKSPACE/todos-ui
 $WORKSPACE/todos-webflux
-$WORKSPACE/clone.sh
-$WORKSPACE/build.sh
-$WORKSPACE/deploy.sh
 ```
 
 ```bash
@@ -67,7 +62,9 @@ Start API Gateway
 
 ```bash
 > cd $WORKSPACE/todos-cloud-gateway
-> java -jar ./target/todos-cloud-gateway-1.0.0.SNAP.jar --eureka.client.enabled=false
+> java -jar ./target/todos-cloud-gateway-1.0.0.SNAP.jar \
+  --eureka.client.enabled=false \
+  --spring.cloud.config.enabled=false
 # Started HttpServer on /0:0:0:0:0:0:0:0:9999
 # Netty started on port(s): 9999
 ```
@@ -76,7 +73,9 @@ Start API
 
 ```bash
 > cd $WORKSPACE/todos-api
-> java -jar ./target/todos-api-1.0.0.SNAP.jar --eureka.client.enabled=false
+> java -jar ./target/todos-api-1.0.0.SNAP.jar \
+  --eureka.client.enabled=false \
+  --spring.cloud.config.enabled=false
 # Tomcat started on port(s): 8080 (http) with context path ''
 ```
 
